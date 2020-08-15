@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Latitude Weather</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude Weather</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="#">Visualization</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Latitude Weather</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="#">Visualization</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>-->
+    <!-- Navs - pills wtih dropdowns - need to change https for visualizations -->
+    <!-- <ul class="nav nav-pills">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="Plots" href="#" role="button" aria-haspopup="true" aria-expanded="false">Data</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://github.com/bourbonracer/Python-API-Challenge/blob/master/output_data/Fig1.png?raw=true">Latitude vs. Maximum Temperature</a>
+                <a class="dropdown-item" href="https://github.com/bourbonracer/Python-API-Challenge/blob/master/output_data/Fig2.png?raw=true">Latitude vs. Humidity</a>
+                <a class="dropdown-item" href="https://github.com/bourbonracer/Python-API-Challenge/blob/master/output_data/Fig3.png?raw=true">Latitude vs. Cloudiness</a>
+                <a class="dropdown-item" href="https://github.com/bourbonracer/Python-API-Challenge/blob/master/output_data/Fig4.png?raw=true">Latitude vs. WindSpeed</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Comparisons</a>
+            <a class="nav-link" href="#">Data</a>
+        </li>
+    </ul> -->
+   <h1>Weather Elements in Relation to Latitude</h1>
+    <section>
+        <h2>Summary</h2>
+        <p>
+        The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 citites<br/><br/>
+        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included maximum temperature, cloudiness, humidity and wind speed.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+        </p>
+    </section>
+</body>
